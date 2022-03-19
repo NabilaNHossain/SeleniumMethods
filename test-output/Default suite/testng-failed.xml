@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="xpathHomework.Hw_15_03152022_test_by_link_and_partiallink">
+        <methods>
+          <include name="testByLink"/>
+          <include name="setUp"/>
+          <include name="partialLinkTest"/>
+          <include name="tearUp"/>
+        </methods>
+      </class> <!-- xpathHomework.Hw_15_03152022_test_by_link_and_partiallink -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
