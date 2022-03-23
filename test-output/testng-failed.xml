@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xpathHomework.Hw_15_03152022_test_by_link_and_partiallink">
+      <class name="xpathHomework.HW_16_03172022_send_keys_clear">
         <methods>
-          <include name="testByLink"/>
-          <include name="setUp"/>
-          <include name="partialLinkTest"/>
+          <include name="sendKeysN"/>
           <include name="tearUp"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- xpathHomework.Hw_15_03152022_test_by_link_and_partiallink -->
+      </class> <!-- xpathHomework.HW_16_03172022_send_keys_clear -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
