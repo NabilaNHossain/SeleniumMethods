@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selniumHomework.HW_18_3222022_3">
+      <class name="selniumHomework.HW_18_3222022_2">
         <methods>
+          <include name="buttonLogo"/>
+          <include name="setUp3"/>
           <include name="tearUp"/>
-          <include name="dropdown2"/>
-          <include name="setUp"/>
-          <include name="dropdown"/>
         </methods>
-      </class> <!-- selniumHomework.HW_18_3222022_3 -->
+      </class> <!-- selniumHomework.HW_18_3222022_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
