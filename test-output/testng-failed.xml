@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selniumHomework.HW_19_03242022_JavaScriptExecutor">
+      <class name="selniumHomework.HW_19_03242022_Explicitly_Wait">
         <methods>
-          <include name="findHIddenElement"/>
           <include name="setUp"/>
+          <include name="explicitlyWait2"/>
           <include name="tearUp"/>
         </methods>
-      </class> <!-- selniumHomework.HW_19_03242022_JavaScriptExecutor -->
+      </class> <!-- selniumHomework.HW_19_03242022_Explicitly_Wait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
