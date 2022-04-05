@@ -91,5 +91,27 @@
 	<classpathentry kind="lib" path="C:/Users/tthik/eclipse-workspace/SeleniumMethods/lib/selenium-support-4.1.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/tthik/eclipse-workspace/SeleniumMethods/lib/slf4j-api-1.7.35.jar"/>
 	<classpathentry kind="lib" path="C:/Users/tthik/eclipse-workspace/SeleniumMethods/lib/testng-7.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/bcpkix-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/bcprov-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/dec-0.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/docker-java-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/docker-java-api-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/docker-java-core-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/docker-java-transport-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/docker-java-transport-httpclient5-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/gson-2.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jna-5.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/jsoup-1.14.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tthik/OneDrive/Desktop/WebDriverManagerJar/webdrivermanager-5.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

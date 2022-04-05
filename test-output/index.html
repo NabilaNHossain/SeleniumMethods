@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\tthik\AppData\Local\Temp\testng-eclipse-671529512\testng-customsuite.xml</span>
+                    <span>C:\Users\tthik\AppData\Local\Temp\testng-eclipse-1110891385\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_19_03242022_JavaScriptExecutor" class="method navigator-link" hash-for-method="findHIddenElement">findHIddenElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +118,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_18_3222022_2" class="method navigator-link" hash-for-method="dropdown">dropdown</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_19_03242022_JavaScriptExecutor" class="method navigator-link" hash-for-method="clickTheSearchBox">clickTheSearchBox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_18_3222022_2" class="method navigator-link" hash-for-method="mouseHoverover">mouseHoverover</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_19_03242022_JavaScriptExecutor" class="method navigator-link" hash-for-method="sendKeys">sendKeys</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_18_3222022_2" class="method navigator-link" hash-for-method="title">title</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="selniumHomework.HW_19_03242022_JavaScriptExecutor" class="method navigator-link" hash-for-method="sendKeys2">sendKeys2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -129,31 +143,102 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">selniumHomework.HW_18_3222022_2</span>
+              <img src="failed.png"/>
+              <span class="class-name">selniumHomework.HW_19_03242022_JavaScriptExecutor</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dropdown">
-                  </a> <!-- dropdown -->
-                  <span class="method-name">dropdown</span>
+                  <a name="findHIddenElement">
+                  </a> <!-- findHIddenElement -->
+                  <span class="method-name">findHIddenElement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;formButton&apos;]&quot;}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;HEDWIG&apos;, ip: &apos;192.168.1.188&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69c51c4dfbb9b44a06a0d75bcc957b94, findElement {using=xpath, value=//button[@id=&apos;formButton&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\tthik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52120/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69c51c4dfbb9b44a06a0d75bcc957b94
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at selniumHomework.HW_19_03242022_JavaScriptExecutor.findHIddenElement(HW_19_03242022_JavaScriptExecutor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selniumHomework.HW_19_03242022_JavaScriptExecutor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTheSearchBox">
+                  </a> <!-- clickTheSearchBox -->
+                  <span class="method-name">clickTheSearchBox</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="mouseHoverover">
-                  </a> <!-- mouseHoverover -->
-                  <span class="method-name">mouseHoverover</span>
+                  <a name="sendKeys">
+                  </a> <!-- sendKeys -->
+                  <span class="method-name">sendKeys</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="title">
-                  </a> <!-- title -->
-                  <span class="method-name">title</span>
+                  <a name="sendKeys2">
+                  </a> <!-- sendKeys2 -->
+                  <span class="method-name">sendKeys2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +246,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tthik\AppData\Local\Temp\testng-eclipse-671529512\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tthik\AppData\Local\Temp\testng-eclipse-1110891385\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -170,7 +255,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;selniumHomework.HW_18_3222022_2&quot;/&gt;
+      &lt;class name=&quot;selniumHomework.HW_19_03242022_JavaScriptExecutor&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -210,24 +295,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'mouseHoverover')
-data.setCell(0, 2, 'selniumHomework.HW_18_3222022_2')
-data.setCell(0, 3, 5286);
+data.setCell(0, 1, 'findHIddenElement')
+data.setCell(0, 2, 'selniumHomework.HW_19_03242022_JavaScriptExecutor')
+data.setCell(0, 3, 20067);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'dropdown')
-data.setCell(1, 2, 'selniumHomework.HW_18_3222022_2')
-data.setCell(1, 3, 323);
+data.setCell(1, 1, 'sendKeys2')
+data.setCell(1, 2, 'selniumHomework.HW_19_03242022_JavaScriptExecutor')
+data.setCell(1, 3, 3526);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'title')
-data.setCell(2, 2, 'selniumHomework.HW_18_3222022_2')
-data.setCell(2, 3, 10);
+data.setCell(2, 1, 'sendKeys')
+data.setCell(2, 2, 'selniumHomework.HW_19_03242022_JavaScriptExecutor')
+data.setCell(2, 3, 2675);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickTheSearchBox')
+data.setCell(3, 2, 'selniumHomework.HW_19_03242022_JavaScriptExecutor')
+data.setCell(3, 3, 809);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -253,26 +342,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">selniumHomework.HW_18_3222022_2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">selniumHomework.HW_19_03242022_JavaScriptExecutor</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUp3</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">title</span>
-                <span class="method-start">4044 ms</span>
+                <span class="method-name">clickTheSearchBox</span>
+                <span class="method-start">1411 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">mouseHoverover</span>
-                <span class="method-start">4061 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findHIddenElement</span>
+                <span class="method-start">2223 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">dropdown</span>
-                <span class="method-start">9348 ms</span>
+                <span class="method-name">sendKeys</span>
+                <span class="method-start">22301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendKeys2</span>
+                <span class="method-start">24977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">9672 ms</span>
+                <span class="method-start">28505 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

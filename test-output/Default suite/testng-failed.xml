@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selniumHomework.HW_18_3222022_2">
+      <class name="selniumHomework.HW_19_03242022_JavaScriptExecutor">
         <methods>
-          <include name="buttonLogo"/>
-          <include name="setUp3"/>
+          <include name="findHIddenElement"/>
+          <include name="setUp"/>
           <include name="tearUp"/>
         </methods>
-      </class> <!-- selniumHomework.HW_18_3222022_2 -->
+      </class> <!-- selniumHomework.HW_19_03242022_JavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
